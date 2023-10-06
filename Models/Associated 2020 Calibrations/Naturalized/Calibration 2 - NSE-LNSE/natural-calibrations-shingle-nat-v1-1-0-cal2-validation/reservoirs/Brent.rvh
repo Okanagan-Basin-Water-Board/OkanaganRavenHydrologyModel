@@ -1,0 +1,45 @@
+#########################################################################
+##
+## Individual Reservoir RVH file. Redirected from Master.rvh file
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 19:55:17
+#---------------------------------------------------------
+
+:Reservoir Brent
+:SubBasinID 2508
+:HRUID 24179
+:WeirCoefficient 0.6
+:CrestWidth 6.850855E+00
+:MaxDepth 12.60348
+:LakeArea 194100
+:AbsoluteCrestHeight 816.66588
+:MaxCapacity 4210695
+
+:VolumeStageRelation LOOKUP_TABLE
+23 # number of points in curve
+804.0624,0
+805.5864,44388
+807.1104,123300
+808.6344,242901
+810.1584,392094
+811.6824,572112
+813.2064,789120
+814.66944,1069627.5
+816.2544,1350135
+816.66588,1438911
+816.864,1483299
+817.4736,1622628
+818.0832,1768122
+818.6928,1919781
+819.3024,2075139
+819.912,2236662
+820.5216,2405583
+821.1312,2580669
+821.7408,2761920
+822.3504,2950569
+822.96,3145383
+824.484,3658311
+826.008,4210695
+:EndVolumeStageRelation
+:EndReservoir

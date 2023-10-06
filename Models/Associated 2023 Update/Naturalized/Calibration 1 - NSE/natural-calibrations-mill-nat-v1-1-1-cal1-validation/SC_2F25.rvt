@@ -1,0 +1,12 @@
+:IrregularObservations SNOW 11324 3 mm # Station 2F25
+2010-02-26 00:00:00	131
+2010-04-01 00:00:00	170
+2010-05-03 00:00:00	71
+:EndIrregularObservations
+
+# Write ObservationWeights
+:IrregularWeights SNOW 11324 3
+2010-02-26 00:00:00	1
+2010-04-01 00:00:00	1
+2010-05-03 00:00:00	1
+:EndIrregularWeights

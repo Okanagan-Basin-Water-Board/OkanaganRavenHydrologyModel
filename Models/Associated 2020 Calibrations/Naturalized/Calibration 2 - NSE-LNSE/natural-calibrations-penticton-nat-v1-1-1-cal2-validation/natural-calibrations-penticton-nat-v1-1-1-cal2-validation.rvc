@@ -1,0 +1,15 @@
+#########################################################################
+:FileType rvc Raven 2.8
+# DataType         Raven Initial Conditions file
+# Watershed Name   natural-calibrations
+# Run Number       penticton-nat-v1-1-1-cal2-validation
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-04 22:51:44
+#---------------------------------------------------------
+#---------------------------------------------------------
+
+
+# ----- Specify Initial Conditions for Reservoir Stage ----
+
+:InitialReservoirStage 2310 1648.968

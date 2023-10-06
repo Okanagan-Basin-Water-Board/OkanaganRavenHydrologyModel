@@ -1,0 +1,43 @@
+#########################################################################
+##
+## Individual Reservoir RVH file. Redirected from Master.rvh file
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 19:54:44
+#---------------------------------------------------------
+
+:Reservoir Jackpine
+:SubBasinID 2410
+:HRUID 14345
+:WeirCoefficient 0.6
+:CrestWidth 7.984080E+00
+:MaxDepth 8.51916000000006
+:LakeArea 426300
+:AbsoluteCrestHeight 1310.64
+:MaxCapacity 3167577
+
+:VolumeStageRelation LOOKUP_TABLE
+21 # number of points in curve
+1302.12084,0
+1302.73044,1233
+1303.34004,7397.99999999997
+1303.94964,24660
+1304.55924,59184
+1305.16884,109737
+1305.77844,177552
+1306.38804,267561
+1306.99764,380997
+1307.60724,525258
+1308.21684,702810
+1308.82644,905022
+1309.43604,1122030
+1310.04564,1356300
+1310.64,1604133
+1310.65524,1610298
+1311.26484,1881558
+1311.87444,2170080
+1312.48404,2470932
+1313.09364,2801376
+1313.70324,3167577
+:EndVolumeStageRelation
+:EndReservoir

@@ -1,0 +1,55 @@
+#########################################################################
+##
+## Individual Reservoir RVH file. Redirected from Master.rvh file
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 19:59:49
+# Modified by Simon Lin
+# Last updated: 2023-06-28
+# Change notes: Weir coefficient changed from 0.6 to 0.666
+#---------------------------------------------------------
+
+:Reservoir Browne
+:SubBasinID 237
+:HRUID 17136
+:WeirCoefficient 0.666
+:CrestWidth 1.255206E+00
+:MaxDepth 9.9974400000001
+:LakeArea 271800
+:AbsoluteCrestHeight 1304.48304
+:MaxCapacity 1290951
+
+:VolumeStageRelation LOOKUP_TABLE
+30 # number of points in curve
+1294.4856,0
+1294.7904,1233
+1295.4,8631.00000000003
+1296.0096,20961
+1296.6192,36990
+1297.2288,57951
+1297.8384,85077
+1298.448,117135
+1299.0576,156591
+1299.6672,202212
+1299.972,229338
+1300.2768,258930
+1300.5816,293454
+1300.8864,330444
+1301.1912,372366
+1301.496,417987
+1301.8008,467307
+1302.1056,520326
+1302.4104,575811
+1302.7152,632529
+1303.02,694179
+1303.3248,759528
+1303.6296,827343
+1303.9344,897624
+1304.2392,969138
+1304.48304,1028322
+1304.544,1043118
+1304.8488,1122030
+1305.1536,1203408
+1305.4584,1290951
+:EndVolumeStageRelation
+:EndReservoir

@@ -1,0 +1,27 @@
+- Run completed on  2020-02-04 22:51:44
+- Run completed by  birdl
+- *.rvh file generated on  2020-02-03 03:33:27  was used for this model run
+- Ostrich was not used for model calibration
+- Water demand data were not included in this model run
+- Run completed using climate data last modified as follows:
+   - Precipitation:  2020-01-25 04:18:40
+   - Maximum Daily Temperature:  2020-01-25 03:34:08
+   - Minimum Daily Temperature:  NA
+- Model Diagnostics were calculated for the period 1996-01-01 to 2010-12-31
+
+Validation of V1-1-1-Cal2 calibration.
+
+-------------------- R OUTPUT --------------------
+[1] "Existing NATURAL *.rvh file being used for this model run..."
+[1] "No Ostrich files are being generated for this model run..."
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] "1 snow course(s) included in the Penticton Creek watershed..."
+[1] "1 snow pillows included in the Penticton Creek watershed..."
+[1] "1 reservoir(s) included within the Penticton Creek watershed..."
+[1] "No Subbasin Properties are included in this model run."
+[1] "Custom disabled subbasins are not included in the current model run. No CustomDisable HRU Group will be defined/disabled."
+[1] "Ostrich was not used for model calibration during this run..."
+[1] "No residual streamflow estimates exist for the Penticton watershed."

@@ -1,0 +1,45 @@
+#########################################################################
+##
+## Individual Reservoir RVH file. Redirected from Master.rvh file
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 19:55:17
+#---------------------------------------------------------
+
+:Reservoir Farleigh
+:SubBasinID 2507
+:HRUID 25002
+:WeirCoefficient 0.6
+:CrestWidth 2.707958E+00
+:MaxDepth 8.19911999999999
+:LakeArea 153300
+:AbsoluteCrestHeight 736.06152
+:MaxCapacity 2113362
+
+:VolumeStageRelation LOOKUP_TABLE
+23 # number of points in curve
+727.8624,0
+729.3864,3699
+730.9104,13563
+732.4344,25893
+732.49536,29592
+733.9584,114669
+734.8728,218241
+735.1776,260163
+735.7872,355104
+736.06152,390861
+736.3968,459909
+737.0064,570879
+737.616,688014
+738.2256,807615
+738.8352,932148
+739.4448,1064079
+740.0544,1199709
+740.664,1341504
+741.2736,1489464
+741.8832,1641123
+742.4928,1798947
+743.1024,1961703
+743.712,2113362
+:EndVolumeStageRelation
+:EndReservoir

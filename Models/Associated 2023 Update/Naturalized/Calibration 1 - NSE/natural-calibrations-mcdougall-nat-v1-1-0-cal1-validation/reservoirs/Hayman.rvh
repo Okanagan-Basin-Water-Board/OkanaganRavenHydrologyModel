@@ -1,0 +1,20 @@
+#########################################################################
+##
+## Individual Reservoir RVH file. Redirected from Master.rvh file
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 19:53:14
+# Modified by Simon Lin
+# Last updated: 2023-06-28
+# Change notes: Weir coefficient changed from 0.6 to 0.666
+#---------------------------------------------------------
+
+:Reservoir Hayman
+:SubBasinID 1706
+:HRUID 13162
+:WeirCoefficient 0.666
+:CrestWidth 2.444842E+00
+:MaxDepth 4.190273E+00
+:LakeArea 67800
+:MaxCapacity 284100.5
+:EndReservoir

@@ -1,0 +1,47 @@
+#########################################################################
+##
+## Individual Reservoir RVH file. Redirected from Master.rvh file
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 20:05:46
+# Modified by Simon Lin
+# Last updated: 2023-06-28
+# Change notes: Weir coefficient changed from 0.6 to 0.666
+#---------------------------------------------------------
+
+:Reservoir Goose
+:SubBasinID 3011
+:HRUID 1462
+:WeirCoefficient 0.666
+:CrestWidth 3.697486E+00
+:MaxDepth 10.5460800000001
+:LakeArea 354100
+:AbsoluteCrestHeight 496.39728
+:MaxCapacity 2869191
+
+:VolumeStageRelation LOOKUP_TABLE
+22 # number of points in curve
+485.8512,0
+485.97312,1232.99999999995
+486.58272,16029
+487.19232,53019
+487.80192,114669
+488.41152,197280
+489.02112,300852
+489.63072,422919
+490.24032,562248
+490.84992,721305
+491.45952,892692
+492.06912,1071477
+492.67872,1265058
+493.28832,1473435
+493.89792,1692909
+494.50752,1922247
+495.11712,2160216
+495.72672,2405583
+496.33632,2659581
+496.39728,2685474
+496.64112,2790279
+496.824,2869191
+:EndVolumeStageRelation
+:EndReservoir

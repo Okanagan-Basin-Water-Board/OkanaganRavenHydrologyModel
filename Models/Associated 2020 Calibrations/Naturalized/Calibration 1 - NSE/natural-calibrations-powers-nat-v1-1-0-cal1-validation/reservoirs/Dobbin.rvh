@@ -1,0 +1,45 @@
+#########################################################################
+##
+## Individual Reservoir RVH file. Redirected from Master.rvh file
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 19:54:44
+#---------------------------------------------------------
+
+:Reservoir Dobbin
+:SubBasinID 2415
+:HRUID 11704
+:WeirCoefficient 0.6
+:CrestWidth 4.773346E+00
+:MaxDepth 17.9831999999999
+:LakeArea 94100
+:AbsoluteCrestHeight 1479.4992
+:MaxCapacity 1110933
+
+:VolumeStageRelation LOOKUP_TABLE
+23 # number of points in curve
+1461.516,0
+1463.04,4931.99999999996
+1466.088,36990
+1469.136,93708
+1472.184,176319
+1475.232,289755
+1476.756,366201
+1477.0608,383463
+1477.3656,401958
+1477.6704,420453
+1477.9752,438948
+1478.28,458676
+1478.5848,478404
+1478.8896,500598
+1479.1944,524025
+1479.4992,548685
+1479.804,574578
+1480.1088,601704
+1480.4136,628830
+1480.7184,658422
+1481.0232,688014
+1481.328,720072
+1484.376,1110933
+:EndVolumeStageRelation
+:EndReservoir

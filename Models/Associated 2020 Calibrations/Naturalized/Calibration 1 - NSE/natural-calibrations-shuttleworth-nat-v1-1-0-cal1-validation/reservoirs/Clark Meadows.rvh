@@ -1,0 +1,17 @@
+#########################################################################
+##
+## Individual Reservoir RVH file. Redirected from Master.rvh file
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 20:02:38
+#---------------------------------------------------------
+
+:Reservoir Clark Meadows
+:SubBasinID 2610
+:HRUID 25848
+:WeirCoefficient 0.6
+:CrestWidth 5.473141E+00
+:MaxDepth 9.528130E+00
+:LakeArea 90600
+:MaxCapacity 863248.6
+:EndReservoir

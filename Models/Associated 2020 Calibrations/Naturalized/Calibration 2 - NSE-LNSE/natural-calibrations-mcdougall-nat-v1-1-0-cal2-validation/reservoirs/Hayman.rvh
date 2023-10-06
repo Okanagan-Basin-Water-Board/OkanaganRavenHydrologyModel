@@ -1,0 +1,17 @@
+#########################################################################
+##
+## Individual Reservoir RVH file. Redirected from Master.rvh file
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 19:54:42
+#---------------------------------------------------------
+
+:Reservoir Hayman
+:SubBasinID 1706
+:HRUID 13162
+:WeirCoefficient 0.6
+:CrestWidth 8.139652E+00
+:MaxDepth 4.338323E+00
+:LakeArea 67800
+:MaxCapacity 294138.3
+:EndReservoir

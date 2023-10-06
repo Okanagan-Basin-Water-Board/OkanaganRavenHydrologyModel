@@ -1,0 +1,11 @@
+#########################################################################
+:FileType rvc Raven 2.8
+# DataType         Raven Initial Conditions file
+# Watershed Name   natural-calibrations
+# Run Number       mclean-nat-v1-1-0-cal2-validation
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 19:52:04
+#---------------------------------------------------------
+#---------------------------------------------------------
+

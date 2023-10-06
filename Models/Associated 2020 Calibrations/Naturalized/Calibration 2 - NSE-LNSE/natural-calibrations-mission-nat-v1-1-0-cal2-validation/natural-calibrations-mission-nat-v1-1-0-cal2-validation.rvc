@@ -1,0 +1,23 @@
+#########################################################################
+:FileType rvc Raven 2.8
+# DataType         Raven Initial Conditions file
+# Watershed Name   natural-calibrations
+# Run Number       mission-nat-v1-1-0-cal2-validation
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 20:00:36
+#---------------------------------------------------------
+#---------------------------------------------------------
+
+
+# ----- Specify Initial Conditions for Reservoir Stage ----
+
+:InitialReservoirStage 254 1259.556
+:InitialReservoirStage 252 1830.019
+:InitialReservoirStage 249 1829.714
+:InitialReservoirStage 246 1863.852
+:InitialReservoirStage 240 1310.03
+:InitialReservoirStage 237 1304.483
+:InitialReservoirStage 235 1286.744
+:InitialReservoirStage 227 1298.143
+:InitialReservoirStage 219 1881.835

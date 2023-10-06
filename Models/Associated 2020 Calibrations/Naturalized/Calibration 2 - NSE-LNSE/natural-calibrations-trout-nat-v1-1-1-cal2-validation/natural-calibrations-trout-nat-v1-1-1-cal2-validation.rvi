@@ -1,0 +1,126 @@
+#########################################################################
+:FileType rvi Raven 2.8
+# DataType         Raven Input file
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-12 21:08:54
+#---------------------------------------------------------
+#---------------------------------------------------------
+# ---- Temporal Specifications ---------------------------
+
+:StartDate	1993-06-01 00:00:00
+:EndDate	2017-12-31 00:00:00
+:TimeStep	1
+
+#---------------------------------------------------------
+# ---- File Control --------------------------------------
+
+:RunName natural-calibrations-trout-nat-v1-1-1-cal2-validation
+
+#---------------------------------------------------------
+# ---- Method Specifications -----------------------------
+
+:Method	ORDERED_SERIES
+
+#---------------------------------------------------------
+# ---- Routing Specifications ----------------------------
+
+:Routing	ROUTE_DIFFUSIVE_WAVE
+:CatchmentRoute	ROUTE_TRI_CONVOLUTION
+
+#---------------------------------------------------------
+# ---- Options Specifications ----------------------------
+
+:Evaporation	PET_HARGREAVES_1985
+:OW_Evaporation	PET_HARGREAVES_1985
+:SWRadiationMethod	SW_RAD_DEFAULT
+:SWCloudCorrect	SW_CLOUD_CORR_NONE
+:SWCanopyCorrect	SW_CANOPY_CORR_NONE
+:LWRadiationMethod	LW_RAD_DEFAULT
+:RainSnowFraction	RAINSNOW_HBV
+:PotentialMeltMethod	POTMELT_HBV
+:CloudCoverMethod	CLOUDCOV_NONE
+:PrecipIceptFract	PRECIP_ICEPT_USER
+:MonthlyInterpolationMethod	MONTHINT_LINEAR_21
+:SoilModel	SOIL_MULTILAYER 3
+:ReservoirDemandAllocation	DEMANDBY_MAX_CAPACITY
+
+#---------------------------------------------------------
+# ---- Alias Definitions ---------------------------------
+
+:Alias	TOP_SOIL	SOIL[0]
+:Alias	INT_SOIL	SOIL[1]
+:Alias	DEEP_SOIL	SOIL[2]
+
+#---------------------------------------------------------
+# ---- Process Specifications ----------------------------
+:HydrologicProcesses
+
+:SnowRefreeze	FREEZE_DEGREE_DAY	SNOW_LIQ	SNOW
+:Precipitation	PRECIP_RAVEN	ATMOS_PRECIP	MULTIPLE
+:CanopyEvaporation	CANEVP_ALL	CANOPY	ATMOSPHERE
+:CanopySnowEvap	CANEVP_ALL	CANOPY_SNOW	ATMOSPHERE
+:SnowBalance	SNOBAL_SIMPLE_MELT	SNOW	SNOW_LIQ
+:-->Overflow	RAVEN_DEFAULT	SNOW_LIQ	PONDED_WATER
+:Infiltration	INF_HBV	PONDED_WATER	MULTIPLE
+:Flush	RAVEN_DEFAULT	SURFACE_WATER	INT_SOIL
+:-->Conditional	HRU_TYPE	IS_NOT	LAKE
+:-->Conditional	HRU_TYPE	IS_NOT	ROCK
+:-->Conditional	HRU_GROUP	IS_NOT	Zero_Soils
+:SoilEvaporation	SOILEVAP_HBV	TOP_SOIL	ATMOSPHERE
+:CapillaryRise	RISE_HBV	INT_SOIL	TOP_SOIL
+:Percolation	PERC_CONSTANT	INT_SOIL	DEEP_SOIL
+:Baseflow	BASE_POWER_LAW	INT_SOIL	SURFACE_WATER
+:Baseflow	BASE_LINEAR	DEEP_SOIL	SURFACE_WATER
+
+:EndHydrologicProcesses
+
+#---------------------------------------------------------
+# ---- Define Watershed HRU Groups -----------------------
+:DefineHRUGroups Shorts_Creek,Vernon_Creek,Vaseux_Creek,Trout_Creek,Trepanier_Creek,Shuttleworth_Creek,Shingle_Creek,Powers_Creek,Penticton_Creek,Naswhito_Creek,Naramata_Creek,Mill_Creek,McLean_Creek,McDougall_Creek,Inkaneep_Creek,Equesis_Creek,Coldstream_Creek,Mission_Creek,Whiteman_Creek
+
+#---------------------------------------------------------
+#----- Define HRU Group for all HRUs with Zero Soil Depth-
+:DefineHRUGroups Zero_Soils
+
+#---------------------------------------------------------
+# ---- Specify HRU Groups to Disable  --------------------
+:DisableHRUGroup	Shorts_Creek
+:DisableHRUGroup	Vernon_Creek
+:DisableHRUGroup	Vaseux_Creek
+:DisableHRUGroup	Trepanier_Creek
+:DisableHRUGroup	Shuttleworth_Creek
+:DisableHRUGroup	Shingle_Creek
+:DisableHRUGroup	Powers_Creek
+:DisableHRUGroup	Penticton_Creek
+:DisableHRUGroup	Naswhito_Creek
+:DisableHRUGroup	Naramata_Creek
+:DisableHRUGroup	Mill_Creek
+:DisableHRUGroup	McLean_Creek
+:DisableHRUGroup	McDougall_Creek
+:DisableHRUGroup	Inkaneep_Creek
+:DisableHRUGroup	Equesis_Creek
+:DisableHRUGroup	Coldstream_Creek
+:DisableHRUGroup	Mission_Creek
+:DisableHRUGroup	Whiteman_Creek
+
+#---------------------------------------------------------
+# ---- Output Options ------------------------------------
+
+:EvaluationMetrics	NASH_SUTCLIFFE
+:EvaluationMetrics	RMSE
+:EvaluationMetrics	PCT_BIAS
+:EvaluationMetrics	R2
+:EvaluationMetrics	LOG_NASH
+:CustomOutput	DAILY AVERAGE SNOW BY_HRU_GROUP
+:CustomOutput	DAILY AVERAGE SNOW BY_BASIN
+
+#-------------------------------------------------------
+#-------- Define Snow Course Groups --------------------
+
+:DefineHRUGroups SC_2F01,SC_2F01A,SC_2F02,SC_2F11
+
+#-------------------------------------------------------
+#-------- Define Snow Pillow Groups --------------------
+
+:DefineHRUGroups SP_2F01AP

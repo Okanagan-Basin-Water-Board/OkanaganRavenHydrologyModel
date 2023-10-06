@@ -1,0 +1,38 @@
+#########################################################################
+##
+## Individual Reservoir RVH file. Redirected from Master.rvh file
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-12 21:08:22
+# Modified by Simon Lin
+# Last updated: 2023-06-28
+# Change notes: Weir coefficient changed from 0.6 to 0.666
+#---------------------------------------------------------
+
+:Reservoir Isintok
+:SubBasinID 2809
+:HRUID 23457
+:WeirCoefficient 0.666
+:CrestWidth 1.417590E+01
+:MaxDepth 6.51052799999979
+:LakeArea 358800
+:AbsoluteCrestHeight 1645.029984
+:MaxCapacity 1384659
+
+:VolumeStageRelation LOOKUP_TABLE
+13 # number of points in curve
+1638.519456,0
+1639.129056,7398
+1639.738656,22194
+1640.348256,49320
+1640.957856,94941
+1641.567456,159057
+1642.177056,240435
+1642.786656,373599
+1643.396256,540054
+1644.005856,961740
+1645.029984,1384659
+1647.053856,2387088
+1650.101856,4301937
+:EndVolumeStageRelation
+:EndReservoir

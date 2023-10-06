@@ -1,0 +1,43 @@
+#########################################################################
+##
+## Individual Reservoir RVH file. Redirected from Master.rvh file
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 19:54:44
+# Modified by Simon Lin
+# Last updated: 2023-06-28
+# Change notes: Weir coefficient changed from 0.6 to 0.666
+#---------------------------------------------------------
+
+:Reservoir Paynter
+:SubBasinID 2419
+:HRUID 12817
+:WeirCoefficient 0.666
+:CrestWidth 1.272135E+00
+:MaxDepth 4.11480000000006
+:LakeArea 186300
+:AbsoluteCrestHeight 1355.9028
+:MaxCapacity 662121
+
+:VolumeStageRelation LOOKUP_TABLE
+18 # number of points in curve
+1351.788,0
+1352.0928,739.8
+1352.3976,4192.2
+1352.7024,12206.7
+1353.0072,24660
+1353.312,41922
+1353.6168,67815
+1353.9216,103572
+1354.2264,149193
+1354.5312,199746
+1354.836,253998
+1355.1408,311949
+1355.4456,373599
+1355.7504,438948
+1355.9028,473472
+1356.0552,509229
+1356.36,583209
+1356.6648,662121
+:EndVolumeStageRelation
+:EndReservoir

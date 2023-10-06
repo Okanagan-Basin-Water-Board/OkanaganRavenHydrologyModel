@@ -1,0 +1,20 @@
+#########################################################################
+##
+## Individual Reservoir RVH file. Redirected from Master.rvh file
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 20:02:38
+# Modified by Simon Lin
+# Last updated: 2023-06-28
+# Change notes: Weir coefficient changed from 0.6 to 0.666
+#---------------------------------------------------------
+
+:Reservoir Allendale
+:SubBasinID 2606
+:HRUID 25416
+:WeirCoefficient 0.666
+:CrestWidth 5.609286E+00
+:MaxDepth 9.178273E+00
+:LakeArea 185500
+:MaxCapacity 1702570
+:EndReservoir

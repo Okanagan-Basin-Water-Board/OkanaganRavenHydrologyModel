@@ -1,0 +1,15 @@
+#########################################################################
+:FileType rvc Raven 2.8
+# DataType         Raven Initial Conditions file
+# Watershed Name   natural-calibrations
+# Run Number       coldstream-nat-v1-1-0-cal2-validation
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 19:57:59
+#---------------------------------------------------------
+#---------------------------------------------------------
+
+
+# ----- Specify Initial Conditions for Reservoir Stage ----
+
+:InitialReservoirStage 1419 1358.27

@@ -1,0 +1,43 @@
+#########################################################################
+##
+## Individual Reservoir RVH file. Redirected from Master.rvh file
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 19:59:49
+#---------------------------------------------------------
+
+:Reservoir Long Meadow
+:SubBasinID 240
+:HRUID 17373
+:WeirCoefficient 0.6
+:CrestWidth 9.917387E-01
+:MaxDepth 3.7
+:LakeArea 85500
+:AbsoluteCrestHeight 1310.0304
+:MaxCapacity 505530
+
+:VolumeStageRelation LOOKUP_TABLE
+21 # number of points in curve
+1305.39744,0
+1305.4584,0
+1305.7632,0
+1306.068,2465.99999999998
+1306.3728,6164.99999999999
+1306.6776,11097
+1306.9824,16029
+1307.2872,22194
+1307.592,30825
+1307.8968,43155
+1308.2016,59184
+1308.5064,83844
+1308.71976,160290
+1309.02456,161523
+1309.32936,198513
+1309.63416,257697
+1309.93896,324279
+1310.0304,346473
+1310.24376,399492
+1310.54856,480870
+1310.64,505530
+:EndVolumeStageRelation
+:EndReservoir

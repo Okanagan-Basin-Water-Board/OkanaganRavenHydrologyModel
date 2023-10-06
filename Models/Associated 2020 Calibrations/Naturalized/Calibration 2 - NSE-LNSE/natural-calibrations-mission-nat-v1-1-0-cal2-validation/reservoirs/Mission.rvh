@@ -1,0 +1,34 @@
+#########################################################################
+##
+## Individual Reservoir RVH file. Redirected from Master.rvh file
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 20:00:50
+#---------------------------------------------------------
+
+:Reservoir Mission
+:SubBasinID 219
+:HRUID 9463
+:WeirCoefficient 0.6
+:CrestWidth 4.566843E+00
+:MaxDepth 2.13359999999989
+:LakeArea 332500
+:AbsoluteCrestHeight 1881.8352
+:MaxCapacity 2308176
+
+:VolumeStageRelation LOOKUP_TABLE
+12 # number of points in curve
+1879.7016,0
+1880.3112,86310
+1880.9208,265095
+1881.5304,459909
+1881.8352,563481
+1882.14,670752
+1882.7496,898857
+1883.3592,1145457
+1883.9688,1406853
+1884.5784,1687977
+1885.188,1987596
+1885.7976,2308176
+:EndVolumeStageRelation
+:EndReservoir

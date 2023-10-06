@@ -1,0 +1,15 @@
+#########################################################################
+:FileType rvc Raven 2.8
+# DataType         Raven Initial Conditions file
+# Watershed Name   natural-calibrations
+# Run Number       equesis-nat-v1-1-0-cal2-validation
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 19:58:38
+#---------------------------------------------------------
+#---------------------------------------------------------
+
+
+# ----- Specify Initial Conditions for Reservoir Stage ----
+
+:InitialReservoirStage 1507 1051.712

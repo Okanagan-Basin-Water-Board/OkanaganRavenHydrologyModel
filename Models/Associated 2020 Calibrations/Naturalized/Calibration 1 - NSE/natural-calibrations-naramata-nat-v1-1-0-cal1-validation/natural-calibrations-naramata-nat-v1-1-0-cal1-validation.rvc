@@ -1,0 +1,11 @@
+#########################################################################
+:FileType rvc Raven 2.8
+# DataType         Raven Initial Conditions file
+# Watershed Name   natural-calibrations
+# Run Number       naramata-nat-v1-1-0-cal1-validation
+:Application       R
+:WrittenBy         Lawrence Bird
+:CreationDate  2020-02-03 20:00:18
+#---------------------------------------------------------
+#---------------------------------------------------------
+
