@@ -32,9 +32,10 @@ The model can run on historical climate data from 1993-2017 (see climate data) a
 
 #CLIMATE DATA:
 Netcdf files for precipitation, minimum and maximum temperature can be found here:
-https://storage.googleapis.com/ohme-data-library/input-data/processed/climate/tasmin.HRU.timeseries.V1.0.1.nc
-https://storage.googleapis.com/ohme-data-library/input-data/processed/climate/tasmax.HRU.timeseries.V1.0.1.nc
-https://storage.googleapis.com/ohme-data-library/input-data/processed/climate/pr.HRU.timeseries.V1.0.1.nc
+https://storage.googleapis.com/obwb_climate_data/OHME_RavenModels/ClimateData%20-%20v1.0.1/input-data_processed_climate_pr.HRU.timeseries.V1.0.1.nc
+https://storage.googleapis.com/obwb_climate_data/OHME_RavenModels/ClimateData%20-%20v1.0.1/input-data_processed_climate_tasmax.HRU.timeseries.V1.0.1.nc
+https://storage.googleapis.com/obwb_climate_data/OHME_RavenModels/ClimateData%20-%20v1.0.1/input-data_processed_climate_tasmin.HRU.timeseries.V1.0.1.nc
+
 
 #RESOURCES:
 Model Update: 
